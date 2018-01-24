@@ -12,21 +12,21 @@ public class Task16 {
 		Random r = new Random();
 		int [] M = new int [size];
 		
-		// заполнение массива элементами
+		// zapolnenie massiva elementami - filling an array with elements
 		for (int i = 0; i < size; i++) {
 			M[i] = r.nextInt(10) + 1;
 		}
 		for (int i=0; i < size; i++) {
 			System.out.print(M[i] + " ");
 		}
-		// поиск min
+		// min search
 		min = M[0];
 		for (int i = 0; i < size; i++) {
 			if (min > M[i]) {
 				min = M[i];
 				index = i + 1;}
 			}
-		// вывод массива на консоль
+		// outputting an array to the console
 		System.out.println();
 		System.out.println(min);
 		System.out.println(index);
