@@ -12,7 +12,7 @@ public class Task17 {
 		Random r = new Random();
 		int [] M = new int [size];
 		
-		// заполнение массива элементами
+		// zapolnenie massiva elementami - filling an array with elements
 		for (int i = 0; i < size; i++) {
 			M[i] = r.nextInt(10) + 1;
 		}
