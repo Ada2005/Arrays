@@ -22,7 +22,7 @@ public class ZamenaNa123 {
 					arr[i][j] = 1;
 				} else if (i > j) {
 					arr[i][j] = 0;
-		//			arr[i][j] = (n + i + 1) - (n + j); эта строчка делает матрицу зеркальной
+		//			arr[i][j] = (n + i + 1) - (n + j); this string makes the matrix a mirror image
 				} else arr[i][j] = (n + j + 1) - (n + i);
 				}
 		}

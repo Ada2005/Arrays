@@ -44,8 +44,8 @@ public class Max2Elem {
 				
 		}
 		}
-		System.out.println("Max элемент: " + max1);
-		System.out.println("Следующий max элемент: " + max2);
+		System.out.println("Max element: " + max1);
+		System.out.println("Next max element: " + max2);
 		
 }
 }
